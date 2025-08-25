@@ -1,0 +1,16 @@
+__pycache__/
+.ipynb_checkpoints/
+
+backtest/__pycache__/
+backtest/.ipynb_checkpoints/
+
+data/__pycache__/
+data/.ipynb_checkpoints/
+
+signals/__pycache__/
+signals/.ipynb_checkpoints/
+
+utils/__pycache__/
+utils/.ipynb_checkpoints/
+
+credential.py
