@@ -3,9 +3,8 @@ print(sys.path)
 print(sys.executable)
 print(sys.version)
 
-from utils.credential import *
-from utils.symbols import *
-from utils.email_utils import *
+from utils import *
+from credential import *
 import yfinance as yf
 import plotly.graph_objects as go
 import numpy as np
@@ -39,10 +38,12 @@ def main(runDate):
 
         email_body += f"<h3> News for {ticker}:</h3><ul>"
         for news in newsDict[:5]:  # Up to 3 articles per ticker
+            sentiment = "Sentiment: " + getSentiment(news['headline']+news['summary'])
             email_body += f"""
             <li>
-                <b>{news['headline']}</b><br>
-                {news['summary']}<br>
+                <b>{news['headline']}</b>
+                <br>{news['summary']}<br>
+                <br>{sentiment}<br>
                 <a href="{news['url']}">Read more</a>
             </li><br>
             """

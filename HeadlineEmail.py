@@ -4,9 +4,8 @@ print(sys.executable)
 print(sys.version)
 import schedule
 import time
-from utils.credential import *
-from utils.symbols import *
-from utils.email_utils import *
+from signals import *
+from utils import * 
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd

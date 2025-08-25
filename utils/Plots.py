@@ -8,7 +8,6 @@ import seaborn as sns
 import base64
 import io
 
-
 def plotly_to_base64(fig):
     buffer = io.BytesIO()
     fig.write_image(buffer, format='png')  # Save Plotly figure to buffer
