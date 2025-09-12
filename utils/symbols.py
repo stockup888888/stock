@@ -1,4 +1,3 @@
-
 TICKERS = [
     # Tech
     'GOOGL', 'META', 'NVDA', 'SMCI', 'QCOM', 'TSM', 'AMD', 'INTC', 'MSFT', 'AAPL',
@@ -7,16 +6,16 @@ TICKERS = [
     'PLTR', 'SMCI', 'AI',
 
     # E-commerce / Consumer Internet
-    'BABA', 'EBAY', 'PDD', 'SHOP',
+    'AMZN', 'BABA', 'EBAY', 'PDD', 'SHOP',
 
     # Transportation & Logistics
     'UBER', 'UPS', 'DJT','TSLA',
 
     # Crypto & Blockchain / Bitcoin
-    'COIN', 'MARA', 'MSTR', 'IBIT', 'BTC-USD', 'ETH-USD',
+    'COIN', 'MARA', 'MSTR', 'IBIT', 'BTC-USD', 'ETH-USD','XRP-USD', 'SOL',
 
     # Telecom
-    'VZ',
+    'VZ','T','OPEN',
 
     # Energy & Commodities
     'XLE', 'XOM', 'USO', 'SMR',
@@ -31,7 +30,7 @@ TICKERS = [
     'WMT', 'XLP', 'COST',
 
     # Consumer Discretionary
-    'NKE', 'SBUX', 'XLY', 'TGT',
+    'NKE', 'SBUX', 'XLY', 'TGT','XLU','LCID', 'JNUG',
 
     # Industrials
     'GE',
@@ -40,12 +39,26 @@ TICKERS = [
     'SPY', 'QQQ', 'QQQM', 'DIA', 'SPXL', 'SPXS', 'SQQQ', 'TLT', 'TMV', 'TMF','SOXL', 'SOXS',
 
     # Other
-    'FIG', 'CRCL',
+    'FIG', 'CRCL','HOOD','BILI', 
 
     # EUR Financials
-    'EUFN'
-]
+    'EUFN',
 
+    #EUR Broad
+    'VGK',
+
+    #Germany 
+    'EWG',
+
+    # JP ETF
+    'EWJ', 'BBJP',
+
+    # HK ETF
+    'EWH','SHY',
+
+    # China ETF
+    'MCHI', 'YINN', 'YANG'
+]
 
 if __name__ == "__main__":
     pass

@@ -2,7 +2,8 @@
 
 from .Chatgpt import *
 from .Plots import *
-from .Corepath import *
-from .Formats import *
-from .Symbols import *
-from .Email_utils import *
+from .corepath import *
+from .formats import *
+from .symbols import *
+from .email_utils import *
+from .credential import *

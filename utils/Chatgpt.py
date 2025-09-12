@@ -2,7 +2,7 @@ import requests
 import sys
 import os
 sys.path.append(os.path.join(os.getcwd(),".."))
-from credential import *
+from utils.credential import *
 
 def getSentiment(text, model="gpt-5-mini"):
     # input is a string, outout is also a string

@@ -1,7 +1,13 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+from email.mime.application import MIMEApplication
+from email.mime.base import MIMEBase
+from email import encoders
+from email.mime.image import MIMEImage
+import datetime
+from utils.credential import *
+import os
 
 SMTP_SERVER = 'smtp.gmail.com'  # Replace with your email provider's SMTP server
 SMTP_PORT = 587    # Common port for TLS

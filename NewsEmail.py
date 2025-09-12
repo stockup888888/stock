@@ -4,7 +4,7 @@ print(sys.executable)
 print(sys.version)
 
 from utils import *
-from credential import *
+from utils.credential import *
 import yfinance as yf
 import plotly.graph_objects as go
 import numpy as np
